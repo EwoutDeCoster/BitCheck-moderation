@@ -7,19 +7,24 @@ from discord.ext import commands
 from discord import Intents
 from discord.ext import tasks
 from typing import List, Literal
+import dotenv
 
 
 
 client = commands.Bot(command_prefix="-", intents=discord.Intents.all())
 client.remove_command("help")
 
-log_channel = 1104164258280898682
-moderation_channel = 1104164258280898682
-faq_file = "questions.json"
+with open("config.json", "r") as f:
+	config = json.load(f)
+
+log_channel = config["log_channel"]
+moderation_channel = config["moderation_channel"]
+faq_file = config["faq_file"]
+TOKEN = config["token"]
 
 @client.event
 async def on_ready():
-	await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching ,name="BitCheck server", url="https://www.bitcheck.me"))
+	await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching ,name="BitCheck server"))
 	try:
 		synced = await client.tree.sync()
 		print(f"Synced {len(synced)} commands")
@@ -137,13 +142,4 @@ async def faq(interaction: discord.Interaction , question: str, member: discord.
 
 	
 
-
-
-
-
-
-
-	
-
-
-client.run("MTEwNDE1NTI2NTY2Mzc2MjU4Mg.GzIknn.pvlWxwvM5idmlrcimNEPhfVskcKJaXVAPAcTVg")
+client.run(TOKEN)
