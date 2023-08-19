@@ -8,7 +8,7 @@ It also cointains a FAQ command to rapidly answer common questions with complex 
 
 **The bot exclusively uses slash commands and context menu's.** 
 
-You can find screenshots [here](https://github.com/BitCheckMe/discord-mod-bot/tree/master/image/readme "Command screenshots").
+You can find screenshots [here](https://github.com/EwoutDeCoster/BitCheck-moderation/tree/master/image/readme "Command screenshots").
 
 ## Setup
 
