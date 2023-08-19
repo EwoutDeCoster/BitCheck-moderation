@@ -3,17 +3,17 @@
         "title": "Tickets",
         "description": "Please create a ticket to get help from our support team. This way we can track your request and get back to you as soon as possible."
     },
-    "unisat" : {
+    "unisat": {
         "title": "Unisat Issue",
-        "description": "We are having some issues with non taproot addresses on unisat. We are working on a fix. Keep an eye on the update channel :eyes: ."
+        "description": "We are having some issues with non taproot addresses on Unisat. We are working on a fix. Keep an eye on the update channel :eyes: ."
     },
     "roles": {
         "title": "Roles",
         "description": "Make sure that the highest role of BitCheck is above the roles you want to give to your users.",
-        "image" : "https://cdn.discordapp.com/attachments/473780839306756096/1104529336071102594/D0P8Pg4fGx0AAAAAElFTkSuQmCC.png"
+        "image": "https://cdn.discordapp.com/attachments/473780839306756096/1104529336071102594/D0P8Pg4fGx0AAAAAElFTkSuQmCC.png"
     },
-    "known-issue" : {
+    "known-issue": {
         "title": "Known Issue",
-        "description": "Before starting a ticket, please read https://discord.com/channels/1085583960513458226/1085662955498110996. The isse you are experiencing might be a known issue that we are working on."
+        "description": "Before starting a ticket, please read https://discord.com/channels/1085583960513458226/1085662955498110996. The issue you are experiencing might be a known issue that we are working on."
     }
 }

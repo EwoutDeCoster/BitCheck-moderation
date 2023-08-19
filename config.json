@@ -2,5 +2,10 @@
     "token": "YOUR TOKEN HERE",
     "log_channel": 1104164258280898682,
     "moderation_channel": 1104164258280898682,
-    "faq_file": "questions.json"
+    "faq_file": "questions.json",
+    "server_id": 1040903368056504361,
+    "support_id": 1107038279540412507,
+    "flag": 1,
+    "high_priority": 1112805932141924444,
+    "dm_channel": 1113853839423066143
 }
